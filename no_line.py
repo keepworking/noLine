@@ -27,5 +27,4 @@ for count in range(0, 3):
             if edge > knee:
                 pixdata[x, y] = (255, 255, 255, 255)
 
-
 img.save("unline.gif", "GIF")
